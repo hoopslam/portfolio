@@ -1,0 +1,40 @@
+.ballBounce {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	animation: bounce 1.5s infinite;
+	z-index: 1;
+}
+
+.ballContainer {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	bottom: 50px;
+	width: 40px;
+	height: 80px;
+	border-radius: 25px;
+	border: gray solid 1px;
+	animation: reveal 5s ease-in;
+}
+
+@keyframes bounce {
+	0% {
+		top: 10px;
+	}
+	50% {
+		top: 40px;
+	}
+	100% {
+		top: 10px;
+	}
+}
+
+@keyframes reveal {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

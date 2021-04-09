@@ -1,17 +1,31 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import styles from "../styles/Navbar.module.css";
-import { BiBasketball } from "react-icons/bi";
+import styles from "./Navbar.module.css";
+import Image from "next/image";
 
 const Navbar = () => {
 	const [active, setActive] = useState(false);
+	const [hidden, setHidden] = useState(true);
+
+	const handleScroll = () => {
+		window.scrollY > 100 ? setHidden(false): null;
+	}
+
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll);
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll)
+		}
+	}, [])
+
 	return (
-		<nav className={styles.Navbar}>
+		<nav className={`${styles.Navbar} ${hidden ? styles.hidden: null}`}>
 			<div className={styles.navbarContainer}>
 				<Link href='#home'>
 					<a className={styles.navbarLogo}>
 						<div className={styles.logoContainer}>
-							<BiBasketball size={"100%"} />
+							<Image src="/assets/basketball.svg" width={35} height={35}/>
 						</div>
 						<div className={styles.logoText}>
 							<h1>David Cho</h1>

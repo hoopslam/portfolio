@@ -1,11 +1,18 @@
-import styles from "../styles/Home.module.css";
-import Layout from "../components/Layout";
-import Header from "../components/Header";
+import Layout from "../components/layout/Layout";
+import Header from "../components/sections/Header";
+import About from "../components/sections/About";
+import Projects from "../components/sections/Projects";
+import Skills from "../components/sections/Skills";
+import Contact from "../components/sections/Contact";
 
 export default function Home() {
 	return (
     <Layout>
       <Header />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
     </Layout>
 	);
 }
