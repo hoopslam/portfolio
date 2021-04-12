@@ -5,27 +5,25 @@ import styles from "./Carousel.module.css";
 
 const CarouselUI = ({ position, total, handleClick, children }) => (
 	<div className={styles.container}>
-		<div>
-			{children}
-			<div
-				className={`${styles.arrow} ${styles.left}`}
-				onClick={handleClick}
-				data-position={position - 1}>
-				{"<"}
-			</div>
-			<div
-				className={`${styles.arrow} ${styles.right}`}
-				onClick={handleClick}
-				data-position={position + 1}>
-				{">"}
-			</div>
-			<div className={styles.dots}>
-				{Array(...Array(total)).map((val, index) => (
-					<div className={styles.dot} onClick={handleClick} data-position={index}>
-						{index === position ? "●" : "○ "}
-					</div>
-				))}
-			</div>
+		{children}
+		<div
+			className={`${styles.arrow} ${styles.left}`}
+			onClick={handleClick}
+			data-position={position - 1}>
+			{"<"}
+		</div>
+		<div
+			className={`${styles.arrow} ${styles.right}`}
+			onClick={handleClick}
+			data-position={position + 1}>
+			{">"}
+		</div>
+		<div className={styles.dots}>
+			{Array(...Array(total)).map((val, index) => (
+				<div className={styles.dot} onClick={handleClick} data-position={index}>
+					{index === position ? "●" : "○ "}
+				</div>
+			))}
 		</div>
 	</div>
 );
