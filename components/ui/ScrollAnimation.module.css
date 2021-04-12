@@ -2,20 +2,23 @@
 	width: 25px;
 	height: 25px;
 	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
 	animation: bounce 1.5s infinite;
 	z-index: 1;
+	color:rgb(255, 153, 0);
 }
 
 .ballContainer {
 	position: absolute;
-	display: flex;
-	justify-content: center;
+	left: 50%;
 	bottom: 50px;
 	width: 40px;
 	height: 80px;
+	transform: translate(-50%, 0);
 	border-radius: 25px;
-	border: gray solid 1px;
-	animation: reveal 5s ease-in;
+	border: gray solid 2px;
+	animation: reveal 4.5s;
 }
 
 @keyframes bounce {
@@ -23,7 +26,7 @@
 		top: 10px;
 	}
 	50% {
-		top: 40px;
+		top: 45px;
 	}
 	100% {
 		top: 10px;
@@ -32,6 +35,9 @@
 
 @keyframes reveal {
 	0% {
+		opacity: 0;
+	}
+	75% {
 		opacity: 0;
 	}
 	100% {

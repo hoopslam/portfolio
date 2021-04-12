@@ -2,12 +2,11 @@ import React from "react";
 import styles from "./Header.module.css";
 import Fade from "react-reveal/Fade";
 import { IoMdPaw } from "react-icons/io";
-import Image from "next/image";
 import ScrollAnimation from "../ui/ScrollAnimation";
 
 const Header = () => {
 	return (
-		<header className={styles.header}>
+		<header id="home" className={styles.header}>
 			<div className={styles.textContainer}>
 				<div className={styles.intro}>
 					<Fade top delay={500} duration={800}>
@@ -20,8 +19,8 @@ const Header = () => {
 				<Fade bottom cascade delay={1400} duration={600}>
 					<h1 className={styles.name}>David</h1>
 				</Fade>
-				<Fade bottom delay={2700} duration={1200}>
-					<p>
+				<Fade bottom delay={2500} duration={1200}>
+					<p className={styles.description}>
 						A<span className={styles.sub}> Web Developer</span>, Basketball Fanatic, and
 						Cat Butler{" "}
 						<IoMdPaw
@@ -33,7 +32,7 @@ const Header = () => {
 					</p>
 				</Fade>
 			</div>
-			<ScrollAnimation linkTo={"#about"} />
+			<ScrollAnimation linkTo={"#skills"} />
 		</header>
 	);
 };

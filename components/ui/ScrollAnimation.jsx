@@ -9,7 +9,7 @@ const ScrollAnimation = ({linkTo}) => {
 			<a>
 				<div className={styles.ballContainer}>
 					<div className={styles.ballBounce}>
-						<Image src='/assets/basketball.png' layout='fill' objectFit='fill' />
+						<Image src='/assets/vector.png' layout='fill' objectFit='fill' />
 					</div>
 				</div>
 			</a>

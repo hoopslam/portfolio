@@ -1,7 +1,6 @@
 .header {
 	position: relative;
 	min-height: 100vh;
-	min-width: 300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -33,10 +32,23 @@
 	justify-content: center;
 }
 
+.description {
+	padding: 0 50px;
+}
+
 .intro p {
 	margin: 0 2px;
 }
 
 .sub {
 	color: var(--primary);
+}
+
+@media screen and (max-width: 500px) {
+	.name {
+		font-size: 4rem;
+	}
+	.header {
+		font-size: 1rem;
+	}
 }

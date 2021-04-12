@@ -6,12 +6,13 @@ import Skills from "../components/sections/Skills";
 import Contact from "../components/sections/Contact";
 
 export default function Home() {
+
 	return (
     <Layout>
       <Header />
-      <About />
-      <Projects />
       <Skills />
+      <Projects />
+      <About />
       <Contact />
     </Layout>
 	);
