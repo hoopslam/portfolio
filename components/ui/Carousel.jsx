@@ -20,7 +20,7 @@ const CarouselUI = ({ position, total, handleClick, children }) => (
 		</div>
 		<div className={styles.dots}>
 			{Array(...Array(total)).map((val, index) => (
-				<div className={styles.dot} onClick={handleClick} data-position={index}>
+				<div key={index} className={styles.dot} onClick={handleClick} data-position={index}>
 					{index === position ? "●" : "○ "}
 				</div>
 			))}
@@ -40,7 +40,7 @@ const Carousel = () => {
 					className={styles.image}
 				/>
 			</Fade>
-			<Fade right duration={1200}>
+			<Fade right duration={1200} >
 				<img
 					src='/assets/projects/project-covid-4-3.jpg'
 					alt='project 2'
