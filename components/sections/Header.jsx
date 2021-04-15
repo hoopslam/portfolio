@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Header.module.css";
 import Fade from "react-reveal/Fade";
 import { IoMdPaw } from "react-icons/io";
-import ScrollAnimation from "../ui/ScrollAnimation";
+import DownArrow from "../ui/DownArrow";
 
 const Header = () => {
 	return (
@@ -31,8 +31,10 @@ const Header = () => {
 						/>
 					</p>
 				</Fade>
+				<Fade bottom delay={3500} duration={1200} className={styles.downArrowContainer}>
+					<DownArrow next={'skills'} />
+				</Fade>
 			</div>
-			<ScrollAnimation linkTo={"#skills"} />
 		</header>
 	);
 };

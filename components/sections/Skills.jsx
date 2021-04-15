@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Skills.module.css";
 import Fade from "react-reveal";
 import Toolbelt from "../ui/Toolbelt";
-import Carousel from "../ui/Carousel";
+import CustomCarousel from "../ui/CustomCarousel";
 
 const Skills = () => {
 	return (
@@ -10,7 +10,13 @@ const Skills = () => {
 			<div className={styles.top}>
 				<Fade right fraction={1}>
 					<div className={styles.carouselContainer}>
-						<Carousel />
+						<CustomCarousel
+							imageArray={[
+								{ src: "/assets/projects/netflix-4-3.png", description: "asdf" },
+								{ src: "/assets/projects/project-covid-4-3.jpg", description: "asdf" },
+								{ src: "/assets/projects/jiseon-4-3.png", description: "asdf" },
+							]}
+						/>
 					</div>
 					<div className={styles.textTop}>
 						<h1>What I Do...</h1>

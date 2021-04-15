@@ -2,6 +2,7 @@ import React from "react";
 import makeCarousel from "react-reveal/makeCarousel";
 import Fade from "react-reveal/Fade";
 import styles from "./Carousel.module.css";
+import Image from "next/image";
 
 const CarouselUI = ({ position, total, handleClick, children }) => (
 	<div className={styles.container}>

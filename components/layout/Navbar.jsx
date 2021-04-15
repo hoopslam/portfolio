@@ -24,9 +24,6 @@ const Navbar = () => {
 			<div className={styles.navbarContainer}>
 				<Link href='#home'>
 					<a className={styles.navbarLogo}>
-						<div className={styles.logoContainer}>
-							<Image src="/assets/basketball.svg" width={35} height={35}/>
-						</div>
 						<div className={styles.logoText}>
 							<h1>David Cho</h1>
 						</div>

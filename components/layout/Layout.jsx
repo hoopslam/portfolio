@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
 		<div>
 			<Head>
 				<title>David Cho</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/favicon.png' />
 				<meta
 					name='description'
 					content='Full stack developer with a passion for exceptional web experiences and a love of different cultures, basketball, and cats'
