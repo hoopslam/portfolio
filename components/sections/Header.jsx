@@ -6,7 +6,7 @@ import DownArrow from "../ui/DownArrow";
 
 const Header = () => {
 	return (
-		<header id="home" className={styles.header}>
+		<header id='home' className={styles.header}>
 			<div className={styles.textContainer}>
 				<div className={styles.intro}>
 					<Fade top delay={500} duration={800}>
@@ -21,8 +21,8 @@ const Header = () => {
 				</Fade>
 				<Fade bottom delay={2500} duration={1200}>
 					<p className={styles.description}>
-						A<span className={styles.sub}> Web Developer</span>, Basketball Fanatic, and
-						Cat Butler{" "}
+						A <span className={styles.sub}> Web Developer</span>, basketball fanatic,
+						and humble cat butler{" "}
 						<IoMdPaw
 							style={{
 								color: "#d3d3d3",
@@ -31,8 +31,10 @@ const Header = () => {
 						/>
 					</p>
 				</Fade>
-				<Fade bottom delay={3500} duration={1200} className={styles.downArrowContainer}>
-					<DownArrow next={'skills'} />
+			</div>
+			<div className={styles.downArrowContainer}>
+				<Fade top delay={3200} duration={1500}>
+					<DownArrow next={"projects"} />
 				</Fade>
 			</div>
 		</header>

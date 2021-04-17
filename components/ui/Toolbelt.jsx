@@ -1,4 +1,4 @@
-import {SiJavascript, SiNetlify, SiFirebase} from "react-icons/si";
+import {SiJavascript, SiNetlify, SiFirebase, SiMaterialUi} from "react-icons/si";
 import {AiFillHtml5, AiFillGithub} from "react-icons/ai";
 import {DiCss3, DiBootstrap, DiReact, DiMongodb, DiPostgresql, DiSass} from "react-icons/di";
 import {FaNode} from "react-icons/fa";
@@ -28,7 +28,10 @@ const Toolbox = () => {
                 <DiSass size={60} color={"#c69"} title={'Sass'}/>
                 <p>Sass</p>
             </div>
-            
+            <div  className={styles.item}>
+                <SiMaterialUi size={60} color={'#1976d2'} title={"Material-UI"} />
+                <p>Material-UI</p>
+            </div>            
             <div className={styles.item}>
                 <DiReact size={60} color={"#61DBFB"}title={'React'}/>
                 <p>React</p>

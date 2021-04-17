@@ -1,0 +1,89 @@
+.projectContainer {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 30px 0;
+	padding: 30px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px black;
+}
+
+.projectDescription {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100%;
+	padding: 20px;
+    font-size: 1.2rem;
+}
+
+.projectDescription h2 {
+    font-size: 2rem;
+}
+
+.imageContainer {
+	position: relative;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px black;
+}
+
+.techContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.techContainer h2 {
+    font-size: 1.2rem;
+	margin-right: 5px;
+	min-width: 90px;
+}
+
+.buttonsContainer {
+	display: flex;
+	width: 100%;
+}
+
+.button {
+	margin-right: 5px;
+	padding: 7px;
+	border-radius: 3px;
+	font-weight: 800;
+    width: 120px;
+    text-align: center;
+}
+
+.code {
+	background: var(--primary);
+	color: white;
+	border: 1px solid white;
+}
+
+.live {
+	border: 1px solid var(--primary);
+	color: var(--primary);
+}
+
+.code:hover {
+	background: rgb(255, 255, 255);
+	color: var(--primary);
+	border: 1px solid var(--primary);
+}
+
+.live:hover {
+	background: var(--primary);
+	color: white;
+}
+
+@media only screen and (min-width: 900px) {
+	.projectContainer {
+		flex-direction: row;
+	}
+}

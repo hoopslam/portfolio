@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     z-index: 10;
-    background: linear-gradient(to bottom,white 80%, rgba(255, 255, 255, 0));
+    background: rgb(255, 255, 255);
 }
 
 .navbarContainer {
@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
+    height: 50px;
 }
 
 .navbarLogo {
@@ -65,14 +66,14 @@
 }
 
 .listItem:hover {
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .hamburger {
     display: block;
     position: fixed;
-    top: 30px;
-    right: 30px;
+    top: 10px;
+    right: 10px;
     width: 35px;
     height: 35px;
     cursor: pointer;

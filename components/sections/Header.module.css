@@ -6,7 +6,7 @@
 	justify-content: center;
 	align-items: center;
 	margin: 0;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 .textContainer {
@@ -15,15 +15,14 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	max-width: 700px;
 	padding: 0 30px;
 }
 
 .name {
 	color: var(--primary);
-	font-size: 5rem;
+	font-size: 7rem;
 	margin: 0;
-	line-height: 5rem;
+	line-height: 7rem;
 }
 
 .intro {
@@ -33,7 +32,7 @@
 }
 
 .description {
-	padding: 0 50px;
+	margin: 10px;
 }
 
 .intro p {
@@ -42,6 +41,13 @@
 
 .sub {
 	color: var(--primary);
+}
+
+.downArrowContainer {
+	position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 @media screen and (max-width: 500px) {

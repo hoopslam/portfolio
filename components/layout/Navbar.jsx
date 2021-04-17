@@ -8,19 +8,19 @@ const Navbar = () => {
 	const [hidden, setHidden] = useState(true);
 
 	const handleScroll = () => {
-		window.scrollY > 100 ? setHidden(false): null;
-	}
+		window.scrollY > 100 ? setHidden(false) : null;
+	};
 
 	useEffect(() => {
-		window.addEventListener('scroll', handleScroll);
+		window.addEventListener("scroll", handleScroll);
 
 		return () => {
-			window.removeEventListener('scroll', handleScroll)
-		}
-	}, [])
+			window.removeEventListener("scroll", handleScroll);
+		};
+	}, []);
 
 	return (
-		<nav className={`${styles.Navbar} ${hidden ? styles.hidden: null}`}>
+		<nav className={`${styles.Navbar} ${hidden ? styles.hidden : null}`}>
 			<div className={styles.navbarContainer}>
 				<Link href='#home'>
 					<a className={styles.navbarLogo}>
@@ -31,13 +31,13 @@ const Navbar = () => {
 				</Link>
 				<ul className={styles.listDesktop}>
 					<li className={styles.listItem}>
-						<Link href='#skills'>
-							<a>Skills</a>
+						<Link href='#projects'>
+							<a>Projects</a>
 						</Link>
 					</li>
 					<li className={styles.listItem}>
-						<Link href='#projects'>
-							<a>Projects</a>
+						<Link href='#skills'>
+							<a>Skills</a>
 						</Link>
 					</li>
 					<li className={styles.listItem}>
