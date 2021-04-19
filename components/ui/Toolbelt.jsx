@@ -1,7 +1,7 @@
 import {SiJavascript, SiNetlify, SiFirebase, SiMaterialUi} from "react-icons/si";
 import {AiFillHtml5, AiFillGithub} from "react-icons/ai";
 import {DiCss3, DiBootstrap, DiReact, DiMongodb, DiPostgresql, DiSass} from "react-icons/di";
-import {FaNode} from "react-icons/fa";
+import {FaNode, FaFigma} from "react-icons/fa";
 
 import styles from "./Toolbelt.module.css";
 
@@ -59,6 +59,10 @@ const Toolbox = () => {
             <div className={styles.item}>
                 <SiFirebase size={60} color={"#ffcb2b"} title={'Firebase'}/>
                 <p>Firebases</p>
+            </div>
+            <div className={styles.item}>
+                <FaFigma size={60} title={'Figma'}/>
+                <p>Figma</p>
             </div>
         </div>
     )

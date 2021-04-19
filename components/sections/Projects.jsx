@@ -11,11 +11,9 @@ const Projects = () => {
 				<div className={styles.title}>
 					<Fade top>
 						<h1>What I Do...</h1>
-						<h2>
-							From simple landing pages to full stack projects, I build things for the
-							web. Here's a few of my recent projects.
-						</h2>
-						<hr style={{ width: "100%", color: "gray" }} />
+						<p>
+							Here are a few of my recent projects
+						</p>
 					</Fade>
 				</div>
 				{projectsList.map((project, i) => (

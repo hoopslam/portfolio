@@ -2,8 +2,8 @@
 
 :root {
   --primary: #0084ff;
-  /* --primary: #0088f7; */
-  --secondary: #4d8cd4;
+  --secondary:#f3f6f9;
+  --tertiary: #5f5f5f;
 }
 
 *,*::after,*::before {

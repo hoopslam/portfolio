@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Skills.module.css";
 import Fade from "react-reveal";
 import Toolbelt from "../ui/Toolbelt";
-import CustomCarousel from "../ui/CustomCarousel";
 
 const Skills = () => {
 	return (

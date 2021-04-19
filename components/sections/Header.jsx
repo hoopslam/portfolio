@@ -34,7 +34,7 @@ const Header = () => {
 			</div>
 			<div className={styles.downArrowContainer}>
 				<Fade top delay={3200} duration={1500}>
-					<DownArrow next={"projects"} />
+					<DownArrow next={"about"} />
 				</Fade>
 			</div>
 		</header>

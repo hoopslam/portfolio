@@ -31,18 +31,13 @@ const Navbar = () => {
 				</Link>
 				<ul className={styles.listDesktop}>
 					<li className={styles.listItem}>
-						<Link href='#projects'>
-							<a>Projects</a>
-						</Link>
-					</li>
-					<li className={styles.listItem}>
-						<Link href='#skills'>
-							<a>Skills</a>
-						</Link>
-					</li>
-					<li className={styles.listItem}>
 						<Link href='#about'>
 							<a>About</a>
+						</Link>
+					</li>
+					<li className={styles.listItem}>
+						<Link href='#projects'>
+							<a>Projects</a>
 						</Link>
 					</li>
 					<li className={styles.listItem}>
@@ -53,13 +48,8 @@ const Navbar = () => {
 				</ul>
 				<ul className={`${styles.listMobile} ${active && styles.active}`}>
 					<li className={styles.listItem} onClick={() => setActive(!active)}>
-						<Link href='#skills'>
-							<a>Skills</a>
-						</Link>
-					</li>
-					<li className={styles.listItem} onClick={() => setActive(!active)}>
-						<Link href='#projects'>
-							<a>Projects</a>
+						<Link href='#home'>
+							<a>Home</a>
 						</Link>
 					</li>
 					<li className={styles.listItem} onClick={() => setActive(!active)}>
@@ -67,6 +57,12 @@ const Navbar = () => {
 							<a>About</a>
 						</Link>
 					</li>
+					<li className={styles.listItem} onClick={() => setActive(!active)}>
+						<Link href='#projects'>
+							<a>Projects</a>
+						</Link>
+					</li>
+
 					<li className={styles.listItem} onClick={() => setActive(!active)}>
 						<Link href='#contact'>
 							<a>Contact Me</a>
