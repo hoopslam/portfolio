@@ -6,14 +6,26 @@
     height: 400px;
     width: 300px;
     box-shadow: 10px 0 50px rgba(0,0,0,0.3);
+    border-radius: 10px
 }
 
 .image {
     border-radius: 10px;
 }
 
+.title  {
+    font-size: 1.3rem;
+    color: rgb(68, 68, 68);
+    text-align: center;
+    margin-bottom: 7px;
+}
+
 .content {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
     top: 0;
@@ -21,17 +33,22 @@
     background: rgb(0, 0, 0);
     clip-path: circle(50px at 0 0);
     transition: all 0.5s;
-    cursor: pointer;
 }
 
 .description {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     font-size: 1rem;
     color: #fff;
-    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 100%;
+}
+
+.button {
+    margin: 10px;
 }
 
 .icon {
@@ -41,6 +58,7 @@
     color: #fff;
     opacity: 1;
     transition: all 0.5s;
+    cursor: pointer;
 }
 
 .content:hover {

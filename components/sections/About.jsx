@@ -8,12 +8,12 @@ const About = () => {
 	return (
 		<section id='about' className={styles.about}>
 			<div className={styles.aboutContainer}>
-				<Fade bottom>
+				<Fade top>
 					<h1 className={styles.title}>About Me</h1>
 				</Fade>
 				<div className={styles.top}>
 					<div className={styles.description}>
-						<Fade bottom>
+						<Fade left>
 							<p>
 								I'm a Javascript developer from California now living in Seoul. I
 								work mostly with React, REST/3rd party APIs, Node, Express, MongoDB,
@@ -21,14 +21,14 @@ const About = () => {
 								technologies.
 							</p>
 						</Fade>
-						<Fade bottom>
+						<Fade left>
 							<p>
 								When I'm not coding, I'm usually watching NBA highlights, playing
 								with my cat, Miru, or cooking something scrumptious to eat.
 							</p>
 						</Fade>
 					</div>
-					<Fade bottom>
+					<Fade right>
 						<div className={styles.imageContainer}>
 							<Image
 								className={styles.image}

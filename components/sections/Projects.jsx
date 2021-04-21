@@ -21,7 +21,7 @@ const Projects = () => {
 				))}
 			</div>
 			<div className={styles.theOthers}>
-				<h1 className={styles.other}>More projects</h1>
+				<h1 className={styles.other}>Additional Projects</h1>
 				<div className={styles.gridContainer}>
 					{extraProjects.map(({ id, title, description, image, github, live, tech }) => (
 						<div key={id} className={styles.gridItem}>

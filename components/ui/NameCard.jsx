@@ -21,12 +21,6 @@ const NameCard = () => {
 				</a>
 				<p>
 					<span className={styles.icon}>
-						<AiOutlinePhone />
-					</span>
-					010-8974-5677
-				</p>
-				<p>
-					<span className={styles.icon}>
 						<GoLocation />
 					</span>
 					Seoul, South Korea
@@ -36,14 +30,6 @@ const NameCard = () => {
 						<FiGithub size={30} />
 					</a>
 				</div>
-			</div>
-			<div className={styles.imageContainer}>
-				<Image
-					className={styles.image}
-					src='/assets/profile.jpg'
-					width={200}
-					height={200}
-				/>
 			</div>
 		</div>
 	);

@@ -49,6 +49,7 @@
 
 .description {
     max-width: 500px;
+    padding: 0 20px;
     font-size: 1.1rem;
     text-align: start;
 }

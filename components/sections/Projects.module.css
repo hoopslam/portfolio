@@ -15,6 +15,7 @@
 
 .title{
 	text-align: end;
+	padding: 0 20px;
 }
 
 .title h1 {
@@ -46,24 +47,11 @@
 	align-items: center;
 }
 
-/* .theOthers::before {
-	content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    transform: skewy(-4deg);
-    transform-origin: 50% 0;
-    outline: 1px solid transparent;
-    backface-visibility: hidden;
-    background-image: linear-gradient(-135deg, var(--primary), rgb(72, 72, 102));
-} */
-
 .other {
 	position: relative;
-	color: var(--tertiary);
+	color: var(--primary);
 	text-align: center;
+	font-size: 2rem;
 }
 
 .gridContainer {
