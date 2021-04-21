@@ -6,13 +6,10 @@ import Toolbelt from "../ui/Toolbelt";
 const Skills = () => {
 	return (
 		<section id='skills' className={styles.skills}>
-			<div className={styles.bottom}>
+			<div className={styles.container}>
 				<Fade bottom fraction={1}>
 					<div className={styles.text}>
-						<h1>My Toolkit</h1>
-						<p>
-							These are some of the major tools I use to get my apps up and running.
-						</p>
+						<h1>Some of the tools I use</h1>
 					</div>
 					<div className={styles.toolkit}>
 						<Toolbelt />

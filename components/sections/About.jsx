@@ -15,10 +15,10 @@ const About = () => {
 					<div className={styles.description}>
 						<Fade bottom>
 							<p>
-								I'm a Javascript developer from California now living in
-								Seoul. I work mostly with React, REST/3rd party APIs, Node, Express,
-								MongoDB, and or PostgreSQL but always enjoy learning about and using
-								new technologies.
+								I'm a Javascript developer from California now living in Seoul. I
+								work mostly with React, REST/3rd party APIs, Node, Express, MongoDB,
+								and or PostgreSQL but always enjoy learning about and using new
+								technologies.
 							</p>
 						</Fade>
 						<Fade bottom>
@@ -31,18 +31,17 @@ const About = () => {
 					<Fade bottom>
 						<div className={styles.imageContainer}>
 							<Image
-							className={styles.image}
-							src={"/assets/profile.jpg"}
-							width={200}
-							height={200}
-						/>
+								className={styles.image}
+								src={"/assets/profile.jpg"}
+								width={200}
+								height={200}
+							/>
 						</div>
-						
 					</Fade>
 				</div>
 				<Fade bottom>
+					<h1 className={styles.tools}>Some of the tools I use</h1>
 					<div className={styles.skills}>
-						<h1>Some of the tools I use</h1>
 						<Toolbelt />
 					</div>
 				</Fade>
