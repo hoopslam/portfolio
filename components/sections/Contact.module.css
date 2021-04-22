@@ -1,62 +1,41 @@
-.container {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-}
-
-.about {
     width: 100%;
-    max-width: 500px;
-    margin: 40px auto;
-    padding: 0 10px;
-}
-
-.profile {
-    border-radius: 9999px;
-}
-
-.about p {
-    text-align: start;
-}
-
-.about h3 {
+    position: relative;
     font-size: 1rem;
-    font-weight: normal;
-    margin: 0;
 }
 
-.contact {
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    max-width: 700px;
-    width: 100%;
-    padding: 0 10px;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    padding: 50px 10px 200px;
 }
 
-.contact input {
-    border: none;
-    background-color: rgb(243, 243, 243);
+.contact h1{
+    color: var(--primary);
 }
 
-.contact textarea {
-    border: none;
-    background-color:rgb(243, 243, 243) ;
+.button {
+	position: relative;
+	padding: 7px;
+	border-radius: 3px;
+	font-weight: 800;
+    width: 150px;
+    text-align: center;
+    background: var(--primary);
+	color: white;
+	border: 1px solid white;
+	top: 0;
+	transition: all .25s ease;
 }
 
-.contact input:focus {
-    outline: none;
-}
-
-.contact textarea:focus {
-    outline: none;
-}
-
-.buttonContainer {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
+.button:hover {
+	transform: scale(1.1);
 }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
-import Image from "next/image";
 
 const Navbar = () => {
 	const [active, setActive] = useState(false);

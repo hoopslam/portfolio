@@ -3,15 +3,38 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 10px 0 30px;
+    background-color: rgb(49, 49, 49);
+    color: white;
 }
 
-.shoot p{
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .4s, visibility .4s;
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
-.shoot:hover p{
-    visibility: visible;
-    opacity: 1;
+.container p{
+    margin: 5px;
+}
+
+.icon {
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
 }
