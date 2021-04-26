@@ -1,5 +1,14 @@
 const extraProjects = [
     {
+        title: "Random Trivia Game",
+        id: 6,
+        image: "/assets/projects/random.png",
+        description: "Test your knowledge of random facts by taking this random trivia quiz",
+        tech: "Typescript, React, Styled Components, Opentdb API",
+        github: "https://hoopslam.com/hoopslam/RandomTrivia/",
+        live: "https://hoopslam.github.io/RandomTrivia/"
+    },
+    {
         title: "Tier List Maker",
         id: 1,
         image: "/assets/projects/tierlist-tall.png",
