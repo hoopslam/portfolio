@@ -1,134 +1,163 @@
-.Navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background: rgb(255, 255, 255);
+.Navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	background: rgb(255, 255, 255);
 }
 
 .navbarContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
-    height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+	height: 50px;
 }
 
 .navbarLogo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:rgba(78, 78, 78);
-    transition: all .2s ease-in;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(78, 78, 78);
+	transition: all 0.2s ease-in;
 }
 
 .navbarLogo:hover {
-    color: var(--primary);
+	color: var(--primary);
 }
 
 .logoText {
-    margin-left: 5px;
+	margin-left: 5px;
 }
 
 .logoContainer {
-    width: 35px;
-    height: 35px;
+	width: 35px;
+	height: 35px;
 }
 
-.listMobile{
-    list-style: none;
-    font-size: 1.3rem;
-    margin: 0;
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 100px;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(78, 78, 78, 0.8);
-    color: white;
-    transition: 0.4s;
+.listMobile {
+	list-style: none;
+	font-size: 1.3rem;
+	margin: 0;
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 100%;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(78, 78, 78, 0.8);
+	color: white;
+	transition: 0.4s;
 }
 
 .listDesktop {
-    list-style: none;
-    display: none;
-    font-size: 1rem;
-    margin: 0;
+	list-style: none;
+	display: none;
+	font-size: 1rem;
+	margin: 0;
 }
 
 .listItem {
-    margin: 20px;
+	margin: 20px;
+	border-bottom: 2px solid transparent;
 }
 
 .listItem:hover {
-    color: var(--primary);
+	color: var(--primary);
+}
+
+.line {
+    position: relative;
+}
+
+.line::before {
+	content: "";
+	background-color: var(--primary);
+	border-radius: 0 0 4px 4px;
+	bottom: -6px;
+	height: 2px;
+	left: 0px;
+	opacity: 0;
+	position: absolute;
+	right: 0px;
+	transform-origin: left center;
+	transform: scaleX(0);
+	transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+	visibility: hidden;
+	width: auto;
+}
+
+.listItem:hover .line::before {
+	transform: scaleX(1);
+	visibility: visible;
+	opacity: 1;
 }
 
 .hamburger {
-    display: block;
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    border: none;
-    outline: none;
+	display: block;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	appearance: none;
+	background: none;
+	border: none;
+	outline: none;
 }
 
-.hamburger .bar, .hamburger::before, .hamburger::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: rgb(160, 160, 160);
-    margin: 5px 0px;
-    transition: 0.4s;
+.hamburger .bar,
+.hamburger::before,
+.hamburger::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: rgb(160, 160, 160);
+	margin: 5px 0px;
+	transition: 0.4s;
 }
 
 .hamburger.active::before {
-    transform: rotate(225deg) translate(-5px, -5px);
-    background-color: white;
+	transform: rotate(225deg) translate(-5px, -5px);
+	background-color: white;
 }
 
 .hamburger.active::after {
-    transform: rotate(135deg) translate(-5px, 5px);
-    background-color: white;
+	transform: rotate(135deg) translate(-5px, 5px);
+	background-color: white;
 }
 
 .hamburger.active .bar {
-    transform: rotate(315deg);
+	transform: rotate(315deg);
 }
 
 .listMobile.active {
-    left: 0;
+	left: 0;
 }
 
 .hidden {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 @media screen and (min-width: 900px) {
-    
-    .navbarContainer {
-        padding: 0 75px;
-    }
+	.navbarContainer {
+		padding: 0 75px;
+	}
 
-    .listDesktop {
-        display: flex;
-    }
+	.listDesktop {
+		display: flex;
+	}
 
-    .hamburger {
-        display: none;
-    }
-    .listMobile.active {
-        display: none;
-    }
+	.hamburger {
+		display: none;
+	}
+	.listMobile.active {
+		display: none;
+	}
 }

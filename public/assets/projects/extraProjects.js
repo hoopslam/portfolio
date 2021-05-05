@@ -9,6 +9,15 @@ const extraProjects = [
         live: "https://devcho.com",
     },
     {
+        title: "Disney Plus Clone",
+        id: 8,
+        image: "/assets/projects/disneyplus0-tall.png",
+        description: "A replica of the Disney Plus Front End",
+        tech: "React, Redux, Styled Components, Firebase",
+        github: "https://github.com/hoopslam/disneyplusclone",
+		live: "https://disneyplus-clone-703c8.web.app/",
+    },
+    {
         title: "Random Trivia Game",
         id: 6,
         image: "/assets/projects/random.png",
@@ -26,23 +35,6 @@ const extraProjects = [
         tech: "HTML, CSS, Javascript",
         github: "https://github.com/hoopslam/tier-list-v1",
         live: "https://hoopslam.github.io/tier-list-v1/"
-    },
-    {
-        title: "Form Validator",
-        id: 3,
-        image: "/assets/projects/form-tall.png",
-        description: "A simple form validator built with vanilla HTML, CSS, and Javascript",
-        tech: "HTML, CSS, Javascript",
-        github: "https://github.com/hoopslam/Form-Validator",
-        live: "https://hoopslam.github.io/Form-Validator/index.html"
-    },
-    {
-        title: "NBA Player Stats Scraper",
-        id: 4,
-        image: "/assets/projects/scraper-tall.png",
-        description: "A web scraping script to scrape NBA player data from the web",
-        tech: "Node.js, Puppeteer",
-        github: "https://github.com/hoopslam/nbastatscraper",
     },
     {
         title: "Drumset",

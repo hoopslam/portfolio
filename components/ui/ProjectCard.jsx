@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import Carousel from "./Carousel";
 import styles from "./ProjectCard.module.css";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
 	const [activeImage, setActiveImage] = useState(0); //state lifted to here because this component needs the state to render the proper description
@@ -27,10 +28,10 @@ const ProjectCard = ({ project }) => {
 					<h2>{project.title}</h2>
 					<div className={styles.buttonsContainer}>
 						<a href={project.github} target='_blank'>
-							<div className={`${styles.button} ${styles.code}`}>View Code</div>
+							<div className={`${styles.button} ${styles.code}`}>View Code<FaGithub className={styles.icon}/></div>
 						</a>
 						<a href={project.live} target='_blank'>
-							<div className={`${styles.button} ${styles.live}`}>Live Site</div>
+							<div className={`${styles.button} ${styles.live}`}>Live Site<FaExternalLinkAlt className={styles.icon}/></div>
 						</a>
 					</div>
 					<div className={styles.techContainer}>

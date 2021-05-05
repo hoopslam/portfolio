@@ -33,17 +33,17 @@ const Navbar = () => {
 				<ul className={styles.listDesktop}>
 					<li className={styles.listItem}>
 						<Link href='#about'>
-							<a>About</a>
+							<a><span className={styles.line}>About</span></a>
 						</Link>
 					</li>
 					<li className={styles.listItem}>
 						<Link href='#projects'>
-							<a>Projects</a>
+							<a><span className={styles.line}>Projects</span></a>
 						</Link>
 					</li>
 					<li className={styles.listItem}>
 						<Link href='#contact'>
-							<a>Contact Me</a>
+							<a><span className={styles.line}>Contact Me</span></a>
 						</Link>
 					</li>
 				</ul>

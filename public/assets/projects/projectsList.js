@@ -1,23 +1,5 @@
 const projectsList = [
 	{
-		title: "Disney Plus",
-		description: [
-			"A Disney+ look-alike project built with React and styled components.",
-			"Once the user is logged in through google authentication, he or she will be redirected to the home page.",
-			"The data on the home page is fetched from Firebase and stored into a Redux store.  It is then pulled from the store and populated onto the site",
-			"You can click on the thumbnails and be redirected via react-router-dom to a details page which contains more details about the movie.",
-		],
-		techstack: "React(CRA), Redux, Styled Components, Firebase",
-		thumb: [
-			"/assets/projects/disneyplus0.png",
-			"/assets/projects/disneyplus1.png",
-			"/assets/projects/disneyplus2.png",
-			"/assets/projects/disneyplus3.png",
-		],
-		github: "https://github.com/hoopslam/disneyplusclone",
-		live: "https://disneyplus-clone-703c8.web.app/",
-	},
-	{
 		title: "Covid-19 Tracker",
 		description: [
 			"A worldwide Covid-19 tracker app using live data sourced from Johns Hopkins University and Worldometers.",
