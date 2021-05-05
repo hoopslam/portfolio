@@ -45,7 +45,7 @@
 
 .downArrowContainer {
 	position: absolute;
-    bottom: 20px;
+    bottom: 100px;
     left: 50%;
     transform: translate(-50%, 0);
 }

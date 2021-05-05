@@ -6,7 +6,6 @@ const extraProjects = [
         description: "My portfolio website",
         tech: "Next.js, CSS Modules, react-reveal, Vercel",
         github: "https://github.com/hoopslam/portfolio",
-        live: "https://devcho.com",
     },
     {
         title: "Disney Plus Clone",
