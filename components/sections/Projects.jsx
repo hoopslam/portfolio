@@ -9,6 +9,8 @@ import GridItem from "../ui/GridItem";
 const Projects = () => {
 	return (
 		<section id='projects' className={styles.projects}>
+			<div className={styles.bluestripe}></div>
+			<div className={styles.graystripe}></div>
 			<div className={styles.projectsContainer}>
 				<div className={styles.title}>
 					<Fade left>

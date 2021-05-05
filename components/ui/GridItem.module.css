@@ -64,7 +64,7 @@
 .content:hover {
     border-radius: 10px;
     clip-path: circle(500px at 0 0);
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.96);
 }
 
 .content:hover .icon{

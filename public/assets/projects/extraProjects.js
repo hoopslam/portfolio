@@ -1,5 +1,14 @@
 const extraProjects = [
     {
+        title: "My Portfolio Website",
+        id: 7,
+        image: "/assets/projects/portfolio-tall.png",
+        description: "My portfolio website",
+        tech: "Next.js, CSS Modules, react-reveal, Vercel",
+        github: "https://github.com/hoopslam/portfolio",
+        live: "https://devcho.com",
+    },
+    {
         title: "Random Trivia Game",
         id: 6,
         image: "/assets/projects/random.png",
@@ -8,6 +17,7 @@ const extraProjects = [
         github: "https://hoopslam.com/hoopslam/RandomTrivia/",
         live: "https://hoopslam.github.io/RandomTrivia/"
     },
+    
     {
         title: "Tier List Maker",
         id: 1,
@@ -18,19 +28,10 @@ const extraProjects = [
         live: "https://hoopslam.github.io/tier-list-v1/"
     },
     {
-        title: "Theater Seat Selector",
-        id: 2,
-        image: "/assets/projects/movie-tall.png",
-        description: "A movie seat selector built with vanilla HTML, CSS, and Javascript",
-        tech: "HTML, CSS, Javascript",
-        github: "https://github.com/hoopslam/Movie-Seat-Selector",
-        live: "https://hoopslam.github.io/Movie-Seat-Selector/index.html"
-    },
-    {
         title: "Form Validator",
         id: 3,
         image: "/assets/projects/form-tall.png",
-        description: "A Form validator built with vanilla HTML, CSS, and Javascript",
+        description: "A simple form validator built with vanilla HTML, CSS, and Javascript",
         tech: "HTML, CSS, Javascript",
         github: "https://github.com/hoopslam/Form-Validator",
         live: "https://hoopslam.github.io/Form-Validator/index.html"

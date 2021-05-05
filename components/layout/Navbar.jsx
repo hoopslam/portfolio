@@ -6,10 +6,12 @@ const Navbar = () => {
 	const [active, setActive] = useState(false);
 	const [hidden, setHidden] = useState(true);
 
+	//This function checks to see if the user scrolled past 100px, at which point the nav bar stops hiding
 	const handleScroll = () => {
 		window.scrollY > 100 ? setHidden(false) : null;
 	};
 
+	//useEffect is used to add an event listener directly onto the window object.  
 	useEffect(() => {
 		window.addEventListener("scroll", handleScroll);
 

@@ -1,6 +1,6 @@
-import {SiJavascript, SiNetlify, SiFirebase, SiMaterialUi} from "react-icons/si";
+import {SiJavascript, SiNextDotJs, SiFirebase, SiRedux, SiTypescript} from "react-icons/si";
 import {AiFillHtml5, AiFillGithub} from "react-icons/ai";
-import {DiCss3, DiBootstrap, DiReact, DiMongodb, DiPostgresql, DiSass} from "react-icons/di";
+import {DiCss3, DiBootstrap, DiReact, DiMongodb, DiSass} from "react-icons/di";
 import {FaNode, FaFigma} from "react-icons/fa";
 
 import styles from "./Toolbelt.module.css";
@@ -28,13 +28,17 @@ const Toolbox = () => {
                 <DiSass size={60} color={"#c69"} title={'Sass'}/>
                 <p>Sass</p>
             </div>
-            <div  className={styles.item}>
-                <SiMaterialUi size={60} color={'#1976d2'} title={"Material-UI"} />
-                <p>Material-UI</p>
-            </div>            
             <div className={styles.item}>
                 <DiReact size={60} color={"#61DBFB"}title={'React'}/>
                 <p>React</p>
+            </div>
+            <div  className={styles.item}>
+                <SiRedux size={60} color={'#764abc'} title={"Redux"} />
+                <p>Redux</p>
+            </div>            
+            <div className={styles.item}>
+                <SiNextDotJs size={60} color={"#000000"} title={'Next.js'}/>
+                <p>Next.js</p>
             </div>
             <div className={styles.item}>
                 <FaNode size={60} color={"#303030"}title={'Node'}/>
@@ -45,24 +49,13 @@ const Toolbox = () => {
                 <p>MongoDB</p>
             </div>
             <div className={styles.item}>
-                <DiPostgresql size={60} color={"#0064a5"} title={'PostgreSQL'}/>
-                <p>PostgreSQL</p>
-            </div>
-            <div className={styles.item}>
                 <AiFillGithub size={60} color={"#211F1F"} title={'Github'}/>
                 <p>Github</p>
             </div>
-            <div className={styles.item}>
-                <SiNetlify size={60} color={"#00C7B7"} title={'Netlify'}/>
-                <p>Netlify</p>
-            </div>
+            
             <div className={styles.item}>
                 <SiFirebase size={60} color={"#ffcb2b"} title={'Firebase'}/>
                 <p>Firebases</p>
-            </div>
-            <div className={styles.item}>
-                <FaFigma size={60} title={'Figma'}/>
-                <p>Figma</p>
             </div>
         </div>
     )

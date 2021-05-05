@@ -2,12 +2,12 @@ const projectsList = [
 	{
 		title: "Disney Plus",
 		description: [
-			"A Disney+ look-alike project to mimic the front end of Disney+.",
+			"A Disney+ look-alike project built with React and styled components.",
 			"Once the user is logged in through google authentication, he or she will be redirected to the home page.",
-			"The data on the home page is fetched from Firebase and stored itno a Redux store.  It is then pulled from the store and populated onto the site",
+			"The data on the home page is fetched from Firebase and stored into a Redux store.  It is then pulled from the store and populated onto the site",
 			"You can click on the thumbnails and be redirected via react-router-dom to a details page which contains more details about the movie.",
 		],
-		techstack: "React(CRA), Redux, Styled Components, Firebase,",
+		techstack: "React(CRA), Redux, Styled Components, Firebase",
 		thumb: [
 			"/assets/projects/disneyplus0.png",
 			"/assets/projects/disneyplus1.png",
@@ -21,9 +21,9 @@ const projectsList = [
 		title: "Covid-19 Tracker",
 		description: [
 			"A worldwide Covid-19 tracker app using live data sourced from Johns Hopkins University and Worldometers.",
-			"Built with React, the app was made with user interactivity in mind.  Depending on what the user inputs, the app rerenders the appropriate components.  Here, the user searches for U and the app will automatically create a filtered search list with all the countries that begin with U.",
-			"Since the user searched for 'USA', the country summary component will render the latest data for the country including the flag, population, and vital covid-19 related data.  To help visualize the data, I used chart.js, a popular chart library for javascript.",
-			"The drop down menu is a data type selector which will update all the graphs and map to reflect the selected data type",
+			"As with many people across the world, Covid-19 was constantly on my mind in 2020/2021.  This project was a means for me to turn my worries into something productive.",
+			"Built with React, the site features several UI components that rerender seamlessly based on user selection or input.",
+			"I hope you all stay safe out there and take all the necessary precautions to help stop the spread of this terrible pandemic",
 		],
 		techstack: "React(CRA), disease.sh API, React-Leaflet, Chart-JS",
 		thumb: [

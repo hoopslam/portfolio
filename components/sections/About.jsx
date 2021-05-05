@@ -7,6 +7,8 @@ import Fade from "react-reveal/Fade";
 const About = () => {
 	return (
 		<section id='about' className={styles.about}>
+			<div className={styles.bluestripe}></div>
+			<div className={styles.graystripe}></div>
 			<div className={styles.aboutContainer}>
 				<Fade top>
 					<h1 className={styles.title}>About Me</h1>
@@ -15,16 +17,14 @@ const About = () => {
 					<div className={styles.description}>
 						<Fade left>
 							<p>
-								I'm a Javascript developer from California now living in Seoul. I
-								work mostly with React, REST/3rd party APIs, Node, Express, MongoDB,
-								and or PostgreSQL but always enjoy learning about and using new
-								technologies.
+								I'm a web developer who loves working with awesome people and cool
+								technologies such as React, Node, and Firebase. I've got a serious
+								passion for making things, be it web apps, homemade kimchi, or
+								cardboard box castles for my cat, Miru &#128568;.
 							</p>
-						</Fade>
-						<Fade left>
 							<p>
-								When I'm not coding, I'm usually watching NBA highlights, playing
-								with my cat, Miru, or cooking something scrumptious to eat.
+								When it comes to web apps, here are some of the tools I use to
+								build.
 							</p>
 						</Fade>
 					</div>
@@ -40,7 +40,6 @@ const About = () => {
 					</Fade>
 				</div>
 				<Fade bottom>
-					<h1 className={styles.tools}>Some of the tools I use</h1>
 					<div className={styles.skills}>
 						<Toolbelt />
 					</div>

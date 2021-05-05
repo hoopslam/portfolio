@@ -22,7 +22,7 @@ const Header = () => {
 				<Fade bottom delay={2500} duration={1200}>
 					<p className={styles.description}>
 						A <span className={styles.sub}> Web Developer</span>, basketball fanatic,
-						and humble cat butler{" "}
+						and cat butler{" "}
 						<IoMdPaw
 							style={{
 								color: "#d3d3d3",
