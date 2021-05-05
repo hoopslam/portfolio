@@ -9,7 +9,7 @@
     height: 50px;
     width: 50px;
     border-style: solid;
-    border-color: var(--primary);
+    border-color: var(--tertiary);
     border-width: 0px 1px 1px 0px;
     transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;

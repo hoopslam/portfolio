@@ -37,6 +37,14 @@ const extraProjects = [
         live: "https://hoopslam.github.io/tier-list-v1/"
     },
     {
+        title: "NBA Player Stats Scraper",
+        id: 4,
+        image: "/assets/projects/scraper-tall.png",
+        description: "A web scraping script to scrape NBA player data from the web",
+        tech: "Node.js, Puppeteer",
+        github: "https://github.com/hoopslam/nbastatscraper",
+    },
+    {
         title: "Drumset",
         id: 5,
         image: "/assets/projects/drumset-tall.png",
