@@ -62,7 +62,6 @@
 
 .buttonsContainer {
 	display: flex;
-	flex-direction: column;
 	width: 100%;
 	position: relative;
 }
@@ -72,8 +71,8 @@
 	margin-right: 10px;
 	padding: 7px;
 	border-radius: 3px;
-	font-weight: 800;
-    width: 150px;
+	font-size: 1rem;
+    width: 100%;
     text-align: center;
 	top: 0;
 	transition: all .25s ease;
@@ -141,7 +140,8 @@
 }
 
 @media only screen and (min-width: 500px) {
-	.buttonsContainer {
-		flex-direction: row;
+	.button {
+		width: 150px;
+		font-size: 1.2rem;
 	}
 }
