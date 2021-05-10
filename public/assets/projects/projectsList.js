@@ -1,23 +1,5 @@
 const projectsList = [
 	{
-		title: "Covid-19 Tracker",
-		description: [
-			"A worldwide Covid-19 tracker app using live data sourced from Johns Hopkins University and Worldometers.",
-			"As with many people across the world, Covid-19 was constantly on my mind in 2020/2021.  This project was a means for me to turn my worries into something productive.",
-			"Built with React, the site features several UI components that rerender seamlessly based on user selection or input.",
-			"I hope you all stay safe out there and take all the necessary precautions to help stop the spread of this terrible pandemic",
-		],
-		techstack: "React(CRA), disease.sh API, React-Leaflet, Chart-JS",
-		thumb: [
-			"/assets/projects/covid-0.jpg",
-			"/assets/projects/covid-1.png",
-			"/assets/projects/covid-2.png",
-			"/assets/projects/covid-3.png",
-		],
-		github: "https://github.com/hoopslam/Covid-19-tracker",
-		live: "https://hoopslam.github.io/Covid-19-tracker/",
-	},
-	{
 		title: "Portfolio Website for Illustrator/Animator",
 		description: [
 			"A fast and responsive portfolio website for Illustrator/Animator Lee Jiseon.",
@@ -34,6 +16,24 @@ const projectsList = [
 		],
 		github: "https://github.com/hoopslam/lee_jiseon",
 		live: "https://www.jiseonlee.art/",
+	},
+	{
+		title: "Covid-19 Tracker",
+		description: [
+			"A worldwide Covid-19 tracker app using live data sourced from Johns Hopkins University and Worldometers.",
+			"As with many people across the world, Covid-19 was constantly on my mind in 2020/2021.  This project was a means for me to turn my worries into something productive.",
+			"Built with React, the site features several UI components that rerender seamlessly based on user selection or input.",
+			"I hope you all stay safe out there and take all the necessary precautions to help stop the spread of this terrible pandemic",
+		],
+		techstack: "React(CRA), disease.sh API, React-Leaflet, Chart-JS",
+		thumb: [
+			"/assets/projects/covid-0.jpg",
+			"/assets/projects/covid-1.png",
+			"/assets/projects/covid-2.png",
+			"/assets/projects/covid-3.png",
+		],
+		github: "https://github.com/hoopslam/Covid-19-tracker",
+		live: "https://hoopslam.github.io/Covid-19-tracker/",
 	},
 ];
 

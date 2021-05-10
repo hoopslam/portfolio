@@ -25,7 +25,7 @@ const Header = () => {
 						and cat butler{" "}
 						<IoMdPaw
 							style={{
-								color: "#d3d3d3",
+								color: "gray",
 								transform: "rotate(25deg) translate(0, 4px)",
 							}}
 						/>

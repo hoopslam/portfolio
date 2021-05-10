@@ -21,7 +21,7 @@ const CustomCarousel = ({ imageArray, activeImage, next, prev }) => {
 							: `${styles.slide}`
 					}>
 					{index === activeImage && (
-						<Image className={styles.image} src={image} width={600} height={450} />
+						<img className={styles.image} src={image} alt="project image" />
 					)}
 				</div>
 			))}
