@@ -79,6 +79,8 @@
 
 .imageContainer {
     margin: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .languagesContainer {
@@ -102,6 +104,7 @@
 @media only screen and (max-width: 900px) {
 	.aboutContainer {
         grid-template-columns: 1fr;
+        padding: 0;
     }
 
     .leftContainer {
@@ -110,5 +113,9 @@
 
     .rightContainer {
         border: none;
+    }
+
+    .details {
+        flex-direction: column-reverse;
     }
 }

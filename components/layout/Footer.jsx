@@ -10,7 +10,7 @@ const Footer = () => {
 				<div className={styles.left}>
 					<h1>David Cho</h1>
 					<p>&copy; Copyright 2021 All rights reserved</p>
-					<p>Site built with Next.js</p>
+					<p>Site built with Next.js and plenty of coffee</p>
 				</div>
 				<div className={styles.right}>
 					<a href='mailto: hoopslam@gmail.com'>

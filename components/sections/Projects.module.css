@@ -12,6 +12,7 @@
 .projectsContainer {
 	max-width: 1300px;
 	z-index: 10;
+	width: 100%;
 }
 
 .title{
@@ -104,4 +105,10 @@
     backface-visibility: hidden;
     background-color: var(--secondary);
 	z-index: -2;
+}
+
+@media only screen and (max-width: 900px) {
+	.gridContainer {
+		margin: 0;
+	}
 }
