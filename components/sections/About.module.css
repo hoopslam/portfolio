@@ -96,11 +96,6 @@
     margin: 0;
 }
 
-.paw {
-    color: gray;
-    transform: rotate(25deg) translate(0, 4px);
-}
-
 @media only screen and (max-width: 900px) {
 	.aboutContainer {
         grid-template-columns: 1fr;

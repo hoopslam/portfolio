@@ -21,14 +21,7 @@ const Header = () => {
 				</Fade>
 				<Fade bottom delay={2500} duration={1200}>
 					<p className={styles.description}>
-						A <span className={styles.sub}> Web Developer</span>, basketball fanatic,
-						and cat butler{" "}
-						<IoMdPaw
-							style={{
-								color: "gray",
-								transform: "rotate(25deg) translate(0, 4px)",
-							}}
-						/>
+						A <span className={styles.sub}> Web Developer</span>
 					</p>
 				</Fade>
 			</div>

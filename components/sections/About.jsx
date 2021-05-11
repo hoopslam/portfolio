@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import Toolbelt from "../ui/Toolbelt";
-import Fade from "react-reveal/Fade";
-import { IoMdPaw } from "react-icons/io";
+import Dot from "../ui/Dot";
 
 const About = () => {
 	return (
@@ -16,11 +15,11 @@ const About = () => {
 						<p>
 							I'm a developer with a passion for making things, be it web apps,
 							homemade kimchi, or cardboard box castles for my cat, Miru 😸. Whatever
-							the endeavor, I genuinely enjoy the challenge of putting pieces together
+							the endeavor, I genuinely enjoy the challenge of putting small pieces together
 							to create a beautiful and cohesive product.
 						</p>
 						<p>
-							When building web apps, I like to use React to build out the front end.
+							When building web apps, I mainly use React to build out the front end.
 							I've recently been using Next.js with styled components and am loving
 							it! For the back end, Firebase has been my JAM but I can also use a bit
 							of Node, Express, MongoDB and PostgreSQL.
@@ -45,22 +44,22 @@ const About = () => {
 									<p>Korean</p>
 									<p>Spanish</p>
 								</div>
-								<div className={styles.pawRating}>
-									<div>
-										<IoMdPaw className={styles.paw} />
-										<IoMdPaw className={styles.paw} />
-										<IoMdPaw className={styles.paw} />
-										<IoMdPaw className={styles.paw} />
-										<IoMdPaw className={styles.paw} />
+								<div>
+									<div>  
+										<Dot />
+										<Dot />
+										<Dot />
+										<Dot />
+										<Dot />
 									</div>
 									<div>
-										<IoMdPaw className={styles.paw} />
-										<IoMdPaw className={styles.paw} />
-										<IoMdPaw className={styles.paw} />
-										<IoMdPaw className={styles.paw} />
+										<Dot />
+										<Dot />
+										<Dot />
+										<Dot />
 									</div>
 									<div>
-										<IoMdPaw className={styles.paw} />
+										<Dot />
 									</div>
 								</div>
 							</div>
@@ -76,7 +75,7 @@ const About = () => {
 						</div>
 					</div>
 					<div className={styles.skills}>
-						<h2>My Tools</h2>
+						<h2>My Favorite Tools</h2>
 						<Toolbelt />
 					</div>
 				</div>
