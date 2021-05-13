@@ -36,6 +36,7 @@ const About = () => {
 						<div className={styles.detailsLeft}>
 							<p>Nationality: USA</p>
 							<p>Current Location: Seoul, South Korea</p>
+							<p>Availability: Worldwide</p>
 
 							<h3>Languages</h3>
 							<div className={styles.languagesContainer}>

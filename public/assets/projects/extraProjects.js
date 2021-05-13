@@ -17,10 +17,10 @@ const extraProjects = [
 		live: "https://disneyplus-clone-703c8.web.app/",
     },
     {
-        title: "Random Trivia Game",
+        title: "Geography Quiz App",
         id: 6,
         image: "/assets/projects/random.png",
-        description: "Test your knowledge of random facts by taking this random trivia quiz",
+        description: "A geography quiz app built with Typescript",
         tech: "Typescript, React, Styled Components, Opentdb API",
         github: "https://hoopslam.com/hoopslam/RandomTrivia/",
         live: "https://hoopslam.github.io/RandomTrivia/"
@@ -44,13 +44,13 @@ const extraProjects = [
         github: "https://github.com/hoopslam/nbastatscraper",
     },
     {
-        title: "Drumset",
+        title: "Chat App",
         id: 5,
-        image: "/assets/projects/drumset-tall.png",
-        description: "A drumset built with HTML, CSS, and Javascript",
-        tech: "HTML, CSS, Javascript",
-        github: "https://github.com/hoopslam/drum-set",
-        live: "https://hoopslam.github.io/drum-set/index.html",
+        image: "/assets/projects/chatApp2-tall.png",
+        description: "A real time chat app.  Check out the live demo and send me a message!",
+        tech: "Next.js, Firebase, Styled-Components",
+        github: "https://github.com/hoopslam/chatapp",
+        live: "https://chatapp-two.vercel.app/",
     }
 ]
 

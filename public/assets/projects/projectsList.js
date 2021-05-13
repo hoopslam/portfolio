@@ -7,7 +7,7 @@ const projectsList = [
 			"To further enhance performance, I built a separate pop-up modal for each of her projects.  This helped to keep a clean layout while packing a ton of content on this single page app. This had the added benefit of more lazy loaded images",
 			"A simple contact form so that her prospective clients can easily reach her.",
 		],
-		techstack: "React (Next.js), CSS Modules, Vercel ",
+		techstack: "React (Next.js), CSS Modules, Vercel",
 		thumb: [
 			"/assets/projects/jiseon-0.png",
 			"/assets/projects/jiseon-1.png",

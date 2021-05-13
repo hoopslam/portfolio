@@ -28,13 +28,13 @@ const Contact = () => {
 				</div>
 
 				<form className={styles.formContainer} onSubmit={sendEmail}>
-					<label for='name'>Name</label>
+					<label htmlFor='name'>Name</label>
 					<input type='text' name='name' required />
-					<label for='email'>Email</label>
+					<label htmlFor='email'>Email</label>
 					<input type='email' name='email' required />
-					<label for='subject'>Subject</label>
+					<label htmlFor='subject'>Subject</label>
 					<input type='text' name='subject' required />
-					<label for='message'>Message</label>
+					<label htmlFor='message'>Message</label>
 					<textarea required name='message' cols='30' rows='8' />
 					<button
 						className={styles.button}

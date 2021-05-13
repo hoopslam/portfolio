@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
 import Fade from "react-reveal/Fade";
-import { IoMdPaw } from "react-icons/io";
 import DownArrow from "../ui/DownArrow";
 
 const Header = () => {
@@ -21,7 +20,7 @@ const Header = () => {
 				</Fade>
 				<Fade bottom delay={2500} duration={1200}>
 					<p className={styles.description}>
-						A <span className={styles.sub}> Web Developer</span>
+						A <span className={styles.sub}> Web Developer</span>, basketball fanatic, and cat servant
 					</p>
 				</Fade>
 			</div>
