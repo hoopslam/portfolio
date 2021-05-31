@@ -1,4 +1,4 @@
-import {SiJavascript, SiNextDotJs, SiFirebase, SiRedux, SiTypescript} from "react-icons/si";
+import {SiJavascript, SiNextDotJs, SiFirebase, SiRedux} from "react-icons/si";
 import {AiFillHtml5, AiFillGithub} from "react-icons/ai";
 import {DiCss3, DiBootstrap, DiReact, DiMongodb, DiSass} from "react-icons/di";
 import {FaNode} from "react-icons/fa";
@@ -55,7 +55,7 @@ const Toolbox = () => {
             
             <div className={styles.item}>
                 <SiFirebase size={50} color={"#ffcb2b"} title={'Firebase'}/>
-                <p>Firebases</p>
+                <p>Firebase</p>
             </div>
         </div>
     )

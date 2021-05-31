@@ -3,6 +3,10 @@ import styles from "./About.module.css";
 import Toolbelt from "../ui/Toolbelt";
 import Dot from "../ui/Dot";
 
+const FLUENT = 5;
+const PROFICIENT = 4;
+const BEGINNER = 1;
+
 const About = () => {
 	return (
 		<section id='about' className={styles.about}>
@@ -46,21 +50,14 @@ const About = () => {
 									<p>Spanish</p>
 								</div>
 								<div>
-									<div>  
-										<Dot />
-										<Dot />
-										<Dot />
-										<Dot />
-										<Dot />
+									<div>
+									{[...Array(FLUENT)].map((e, i) => <Dot key={i}/>)}
 									</div>
 									<div>
-										<Dot />
-										<Dot />
-										<Dot />
-										<Dot />
+									{[...Array(PROFICIENT)].map((e, i) => <Dot key={i}/>)}
 									</div>
 									<div>
-										<Dot />
+									{[...Array(BEGINNER)].map((e, i) => <Dot key={i}/>)}
 									</div>
 								</div>
 							</div>

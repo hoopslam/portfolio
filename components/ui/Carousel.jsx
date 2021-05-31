@@ -1,6 +1,4 @@
 import React from "react";
-import Image from "next/image";
-
 import styles from "./Carousel.module.css";
 
 const CustomCarousel = ({ imageArray, activeImage, next, prev }) => {
@@ -21,7 +19,7 @@ const CustomCarousel = ({ imageArray, activeImage, next, prev }) => {
 							: `${styles.slide}`
 					}>
 					{index === activeImage && (
-						<img className={styles.image} src={image} alt="project image" />
+						<img className={styles.image} src={image} alt="project image" style={{objectFit: "cover"}}/>
 					)}
 				</div>
 			))}
