@@ -103,7 +103,7 @@
 	transform: skewY(12deg);
     outline: 1px solid transparent;
     backface-visibility: hidden;
-    background-color: var(--secondary);
+    background-color: #f4f5fa;
 	z-index: -2;
 }
 
