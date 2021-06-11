@@ -20,7 +20,7 @@ const Header = () => {
 				</Fade>
 				<Fade bottom delay={2500} duration={1200}>
 					<p className={styles.description}>
-						A <span className={styles.sub}> Web Developer</span>, basketball fanatic, and cat servant
+						A <span className={styles.sub}> Web Developer</span>, basketball fanatic, and cat dad
 					</p>
 				</Fade>
 			</div>

@@ -24,7 +24,7 @@ const Contact = () => {
 			<div className={styles.container}>
 				<div className={styles.text}>
 					<h1>Drop me a Line!</h1>
-					<p>Want to get a hold of me? Send me a message!</p>
+					<p>Want to get a hold of me? Send me a message and I'll get back to you posthaste!</p>
 				</div>
 
 				<form className={styles.formContainer} onSubmit={sendEmail}>

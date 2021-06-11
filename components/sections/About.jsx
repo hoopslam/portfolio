@@ -18,9 +18,9 @@ const About = () => {
 						</div>
 						<p>
 							I'm a developer with a passion for making things, be it web apps,
-							homemade kimchi, or cardboard box castles for my cat, Miru 😸. Whatever
-							the endeavor, I genuinely enjoy the challenge of putting small pieces together
-							to create a beautiful and cohesive product.
+							homemade kimchi, or cardboard box castles for my cat. Whatever the
+							endeavor, I genuinely enjoy the challenge of putting small pieces
+							together to create a beautiful and cohesive product.
 						</p>
 						<p>
 							When building web apps, I mainly use React to build out the front end.
@@ -29,9 +29,9 @@ const About = () => {
 							of Node, Express, MongoDB and PostgreSQL.
 						</p>
 						<p>
-							When I'm not making something, I'm usually learning how to make
-							something. My goal is to continuously grow as a developer and to stay
-							current with the latest trends and technologies.
+							Outside of coding, I love spending time with my fiancee and our cat,
+							Miru 😸. I follow my basketball religiously (let's go Clippers!) and
+							unwind in the evenings with a bit of Overwatch, PUBG, or Civ.
 						</p>
 					</div>
 				</div>
@@ -39,7 +39,8 @@ const About = () => {
 					<div className={styles.details}>
 						<div className={styles.detailsLeft}>
 							<p>Nationality: USA</p>
-							<p>Current Location: Seoul, South Korea</p>
+							<p>Race: Zerg</p>
+							<p>Current Location: Seoul</p>
 							<p>Availability: Worldwide</p>
 
 							<h3>Languages</h3>
@@ -47,17 +48,17 @@ const About = () => {
 								<div className={styles.languages}>
 									<p>English</p>
 									<p>Korean</p>
-									<p>Spanish</p>
 								</div>
 								<div>
 									<div>
-									{[...Array(FLUENT)].map((e, i) => <Dot key={i}/>)}
+										{[...Array(FLUENT)].map((e, i) => (
+											<Dot key={i} />
+										))}
 									</div>
 									<div>
-									{[...Array(PROFICIENT)].map((e, i) => <Dot key={i}/>)}
-									</div>
-									<div>
-									{[...Array(BEGINNER)].map((e, i) => <Dot key={i}/>)}
+										{[...Array(PROFICIENT)].map((e, i) => (
+											<Dot key={i} />
+										))}
 									</div>
 								</div>
 							</div>
