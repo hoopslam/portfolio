@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
 				<link rel='icon' href='/favicon.png' />
 				<meta
 					name='description'
-					content='Full stack developer with a passion for exceptional web experiences and a love of different cultures, basketball, and cats'
+					content='Full stack web developer based in Seoul, South Korea.'
 				/>
 			</Head>
 			<Navbar />
