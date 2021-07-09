@@ -20,7 +20,11 @@ const Header = () => {
 				</Fade>
 				<Fade bottom delay={2500} duration={1200}>
 					<p className={styles.description}>
-						A <span className={styles.sub}> Web Developer</span>, basketball fanatic, and cat dad
+						A <span className={styles.sub}> Web Developer</span>, basketball fanatic,
+						and cat dad.
+					</p>
+					<p>
+						<a href='https://devcho.com' style={{textDecoration: "underline", color: "blue"}}>CLICK HERE </a> to go to the latest version of my portfolio.						
 					</p>
 				</Fade>
 			</div>
